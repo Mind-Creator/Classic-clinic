@@ -1,4 +1,4 @@
-package com.example.classic_clinic;
+package ru.ivanzotov.classicclinic;
 
 import android.os.Bundle;
 import android.view.View;
@@ -14,7 +14,7 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.classic_clinic.databinding.ActivityMainBinding;
+import ru.ivanzotov.classicclinic.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.classic_clinic;
+package ru.ivanzotov.classicclinic;
 
 import org.junit.Test;
 
