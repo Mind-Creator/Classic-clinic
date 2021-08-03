@@ -1,2 +1,2 @@
-# Classic_clinic_java
+# Classic-clinic
 hardcore development
