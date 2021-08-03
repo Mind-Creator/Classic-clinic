@@ -1,4 +1,4 @@
-package com.example.classic_clinic.ui.articles;
+package com.example.classic_clinic.ui.contacts;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,26 +13,27 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.classic_clinic.R;
-import com.example.classic_clinic.databinding.FragmentArticlesBinding;
+import com.example.classic_clinic.databinding.FragmentContactsBinding;
 
+public class ContactsFragment extends Fragment {
 
-public class ArticlesFragment extends Fragment {
-
-    private ArticlesViewModel articlesViewModel;
-    private FragmentArticlesBinding binding;
+    private ContactsViewModel contactsViewModel;
+    private FragmentContactsBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        articlesViewModel =
-                new ViewModelProvider(this).get(ArticlesViewModel.class);
+        contactsViewModel =
+                new ViewModelProvider(this).get(ContactsViewModel.class);
 
-        binding = FragmentArticlesBinding.inflate(inflater, container, false);
+        binding = FragmentContactsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textArticles;
-        articlesViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        final TextView textView = binding.textContacts;
+        contactsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
-            public void onChanged(@Nullable String s) { textView.setText(s); }
+            public void onChanged(@Nullable String s) {
+                textView.setText(s);
+            }
         });
         return root;
     }
