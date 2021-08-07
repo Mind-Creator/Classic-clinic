@@ -5,7 +5,7 @@
     <string name="nav_header_title">Classic Clinic</string>
     <string name="nav_header_subtitle">Пластическая, эстетическая, реконструктивная хирургия</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Настройки</string>
 
     <string name="menu_home">Главная</string>
     <string name="menu_gallery">Пластическая хирургия</string>
@@ -13,7 +13,27 @@
     <string name="menu_articles">Статьи</string>
     <string name="menu_contacts">Контакты</string>
     <string name="menu_consult">Запись на консультацию</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="action_about">О программе</string>
+    <string name="rate_this_app">Оцените приложение!</string>
+    <string name="visit_me_at_google_play">Посетите меня на Google Play</string>
+    <string name="about_title">Пластическая, эстетическая, реконструктивная хирургия</string>
+    <string name="author_title">author_title</string>
+    <string name="author_eMail">author_eMail</string>
+    <string name="voices_title">voices_title</string>
+    <string name="voices_eMail">voices_eMail</string>
+    <string name="fonts_title">fonts_title</string>
+    <string name="fonts_license">fonts_license</string>
+    <string name="fonts_license_url">fonts_license_url</string>
+    <string name="pictures_title">pictures_title</string>
+    <string name="pictures_license">pictures_license</string>
+    <string name="pictures_license_url">pictures_license_url</string>
+    <string name="translation_title">translation_title</string>
+    <string name="translation_eMail">translation_eMail</string>
+    <string name="title_activity_settings">SettingsActivity</string>
 
 </resources>
