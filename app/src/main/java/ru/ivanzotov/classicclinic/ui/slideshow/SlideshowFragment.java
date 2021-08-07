@@ -1,4 +1,4 @@
-package com.example.classic_clinic.ui.slideshow;
+package ru.ivanzotov.classicclinic.ui.slideshow;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,8 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.classic_clinic.R;
-import com.example.classic_clinic.databinding.FragmentSlideshowBinding;
+import ru.ivanzotov.classicclinic.databinding.FragmentSlideshowBinding;
 
 public class SlideshowFragment extends Fragment {
 

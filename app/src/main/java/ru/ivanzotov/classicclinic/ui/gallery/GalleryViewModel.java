@@ -1,4 +1,4 @@
-package com.example.classic_clinic.ui.gallery;
+package ru.ivanzotov.classicclinic.ui.gallery;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
