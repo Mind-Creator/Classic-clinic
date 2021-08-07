@@ -24,17 +24,17 @@
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/nav_contacts"
-        android:name="com.example.classic_clinic.ui.contacts.ContactsFragment"
+        android:name="ru.ivanzotov.classicclinic.ui.contacts.ContactsFragment"
         android:label="@string/menu_contacts"
         tools:layout="@layout/fragment_contacts" />
     <fragment
         android:id="@+id/nav_consult"
-        android:name="com.example.classic_clinic.ui.consult.ConsultFragment"
+        android:name="ru.ivanzotov.classicclinic.ui.consult.ConsultFragment"
         android:label="@string/menu_consult"
         tools:layout="@layout/fragment_consult" />
     <fragment
         android:id="@+id/nav_articles"
-        android:name="com.example.classic_clinic.ui.articles.ArticlesFragment"
+        android:name="ru.ivanzotov.classicclinic.ui.articles.ArticlesFragment"
         android:label="@string/menu_articles"
         tools:layout="@layout/fragment_articles" />
 </navigation>
