@@ -1,4 +1,4 @@
-package com.example.classic_clinic.ui.articles;
+package ru.ivanzotov.classicclinic.ui.articles;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,8 +12,8 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.classic_clinic.R;
-import com.example.classic_clinic.databinding.FragmentArticlesBinding;
+import ru.ivanzotov.classicclinic.R;
+import ru.ivanzotov.classicclinic.databinding.FragmentArticlesBinding;
 
 
 public class ArticlesFragment extends Fragment {
