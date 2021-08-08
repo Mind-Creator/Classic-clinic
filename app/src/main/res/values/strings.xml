@@ -5,7 +5,7 @@
     <string name="nav_header_title">Classic Clinic</string>
     <string name="nav_header_subtitle">Пластическая, эстетическая, реконструктивная хирургия</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Настройки</string>
 
     <string name="menu_home">Главная</string>
     <string name="menu_gallery">Пластическая хирургия</string>
@@ -13,7 +13,36 @@
     <string name="menu_articles">Статьи</string>
     <string name="menu_contacts">Контакты</string>
     <string name="menu_consult">Запись на консультацию</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="action_about">О программе</string>
+    <string name="rate_this_app">Оцените приложение!</string>
+    <string name="visit_me_at_google_play">Посетите меня на Google Play</string>
+    <string name="about_title">Пластическая, эстетическая, реконструктивная хирургия</string>
+
+    <string name="author_title_1">Автор:</string>
+    <string name="author_eMail_1">king@gmail.com</string>
+    <string name="author_title_2">Автор:</string>
+    <string name="author_eMail_2">daniil.ushakov@gmail.com</string>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
 
 </resources>
