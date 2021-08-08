@@ -22,18 +22,27 @@
     <string name="rate_this_app">Оцените приложение!</string>
     <string name="visit_me_at_google_play">Посетите меня на Google Play</string>
     <string name="about_title">Пластическая, эстетическая, реконструктивная хирургия</string>
-    <string name="author_title">author_title</string>
-    <string name="author_eMail">author_eMail</string>
-    <string name="voices_title">voices_title</string>
-    <string name="voices_eMail">voices_eMail</string>
-    <string name="fonts_title">fonts_title</string>
-    <string name="fonts_license">fonts_license</string>
-    <string name="fonts_license_url">fonts_license_url</string>
-    <string name="pictures_title">pictures_title</string>
-    <string name="pictures_license">pictures_license</string>
-    <string name="pictures_license_url">pictures_license_url</string>
-    <string name="translation_title">translation_title</string>
-    <string name="translation_eMail">translation_eMail</string>
+
+    <string name="author_title_1">Автор:</string>
+    <string name="author_eMail_1">king@gmail.com</string>
+    <string name="author_title_2">Автор:</string>
+    <string name="author_eMail_2">daniil.ushakov@gmail.com</string>
+
     <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
 
 </resources>

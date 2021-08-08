@@ -54,139 +54,47 @@
                 app:layout_constraintTop_toBottomOf="@+id/about_title" />
 
             <TextView
-                android:id="@+id/author_title"
+                android:id="@+id/author_title_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/button_margin"
                 android:paddingEnd="@dimen/button_margin"
-                android:text="@string/author_title"
+                android:text="@string/author_title_1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/divider1" />
 
 
             <TextView
-                android:id="@+id/author_eMail"
+                android:id="@+id/author_eMail_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/button_margin"
                 android:gravity="center|start"
-                android:text="@string/author_eMail"
+                android:text="@string/author_eMail_1"
                 app:layout_constraintStart_toEndOf="@id/barrier_v1"
                 app:layout_constraintTop_toBottomOf="@+id/divider1" />
 
             <TextView
-                android:id="@+id/voices_title"
+                android:id="@+id/author_title_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/button_margin"
                 android:paddingEnd="@dimen/button_margin"
-                android:text="@string/voices_title"
+                android:text="@string/author_title_2"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/author_eMail" />
-
-            <TextView
-                android:id="@+id/voices_eMail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/button_margin"
-                android:layout_marginEnd="@dimen/button_margin"
-                android:gravity="center|start"
-                android:text="@string/voices_eMail"
-                app:layout_constraintStart_toEndOf="@id/barrier_v1"
-                app:layout_constraintTop_toBottomOf="@+id/author_eMail" />
+                app:layout_constraintTop_toBottomOf="@+id/author_title_1" />
 
 
             <TextView
-                android:id="@+id/fonts_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/button_margin"
-                android:paddingEnd="@dimen/button_margin"
-                android:text="@string/fonts_title"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/translation_eMail" />
-
-            <TextView
-                android:id="@+id/fonts_license"
+                android:id="@+id/author_eMail_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/button_margin"
                 android:gravity="center|start"
-                android:text="@string/fonts_license"
+                android:text="@string/author_eMail_2"
                 app:layout_constraintStart_toEndOf="@id/barrier_v1"
-                app:layout_constraintTop_toBottomOf="@id/translation_eMail"
-                android:ellipsize="none"
-                android:scrollHorizontally="false"
-                />
+                app:layout_constraintTop_toBottomOf="@+id/author_eMail_1" />
 
-            <TextView
-                android:id="@+id/fonts_license_url"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ellipsize="none"
-                android:gravity="center|start"
-                android:scrollHorizontally="false"
-                android:text="@string/fonts_license_url"
-                android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                app:layout_constraintStart_toEndOf="@id/barrier_v1"
-                app:layout_constraintTop_toBottomOf="@id/fonts_license" />
-
-            <TextView
-                android:id="@+id/pictures_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/button_margin"
-                android:paddingEnd="@dimen/button_margin"
-                android:text="@string/pictures_title"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/fonts_license_url" />
-
-            <TextView
-                android:id="@+id/pictures_license"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/button_margin"
-                android:layout_marginEnd="@dimen/button_margin"
-                android:gravity="center|start"
-                android:text="@string/pictures_license"
-                app:layout_constraintStart_toEndOf="@id/barrier_v1"
-                app:layout_constraintTop_toBottomOf="@+id/fonts_license_url"
-                android:ellipsize="none"
-                android:scrollHorizontally="false"/>
-
-            <TextView
-                android:id="@+id/pictures_license_url"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-
-                android:ellipsize="none"
-                android:gravity="center|start"
-                android:scrollHorizontally="false"
-                android:text="@string/pictures_license_url"
-                android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                app:layout_constraintStart_toEndOf="@id/barrier_v1"
-                app:layout_constraintTop_toBottomOf="@id/pictures_license" />
-
-            <TextView
-                android:id="@+id/translation_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/button_margin"
-                android:paddingEnd="@dimen/button_margin"
-                android:text="@string/translation_title"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/voices_eMail" />
-
-            <TextView
-                android:id="@+id/translation_eMail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/button_margin"
-                android:gravity="center|center_horizontal"
-
-                android:text="@string/translation_eMail"
-                app:layout_constraintStart_toEndOf="@id/barrier_v1"
-                app:layout_constraintTop_toBottomOf="@+id/voices_eMail" />
 
             <View
                 android:id="@+id/divider2"
@@ -194,7 +102,7 @@
                 android:layout_margin="@dimen/button_margin"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/pictures_license_url" />
+                app:layout_constraintTop_toBottomOf="@+id/author_eMail_2" />
 
 
             <Button
@@ -227,8 +135,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:barrierDirection="right"
-                app:constraint_referenced_ids="author_title,voices_title,fonts_title,pictures_title,translation_title"
-               />
+                app:constraint_referenced_ids="author_title_1,author_title_2"
+                tools:layout_editor_absoluteX="113dp" />
 
 
 

@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Classic_clinic">
         <activity
+            android:name=".SettingsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_settings" />
+        <activity
             android:name=".AboutActivity"
             android:exported="true" />
         <activity
